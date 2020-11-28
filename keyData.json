@@ -1,0 +1,50 @@
+[
+	{
+		"key": "NumLock",
+		"url": "tdp_01.mp3" 
+	},
+	{
+		"key": "NumpadDivide",
+		"url": "tdp_02.mp3" 
+	},
+	{
+		"key": "NumpadMultiply",
+		"url": "tdp_03.mp3" 
+	},
+	{
+		"key": "Numpad7",
+		"url": "tdp_04.mp3" 
+	},
+	{
+		"key": "Numpad8",
+		"url": "tdp_05.mp3" 
+	},
+	{
+		"key": "Numpad9",
+		"url": "tdp_06.mp3" 
+	},
+	{
+		"key": "Numpad4",
+		"url": "tdp_07.mp3" 
+	},
+	{
+		"key": "Numpad5",
+		"url": "tdp_08.mp3" 
+	},
+	{
+		"key": "Numpad6",
+		"url": "tdp_09.mp3" 
+	},
+	{
+		"key": "Numpad1",
+		"url": "tdp_10.mp3" 
+	},
+	{
+		"key": "Numpad2",
+		"url": "tdp_11.mp3" 
+	},
+	{
+		"key": "Numpad3",
+		"url": "tdp_12.mp3" 
+	}
+]
