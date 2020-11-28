@@ -1,0 +1,62 @@
+
+.drumpad {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+}
+
+.key {
+	background-color: #252A39;
+	margin: 4px;
+	border-radius: 10px;
+	
+}
+.key:active {
+	background-color: #0092FC;
+}
+.playing {
+	background-color: #0092FC;
+	transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/*------------------------------------*\
+	#KEY COLOR
+\*------------------------------------*/
+.key:first-child.playing,
+.key:first-child:active {
+	background-color: #3FBF8F;
+}
+.key:nth-child(3).playing,
+.key:nth-child(3):active {
+	background-color: #e8e8e8;
+}
+.key:nth-child(5).playing,
+.key:nth-child(5):active {
+	background-color: #f05454;
+}
+.key:nth-child(6).playing,
+.key:nth-child(6):active {
+	background-color: #fcf876;
+}
+.key:nth-child(7).playing,
+.key:nth-child(7):active {
+	background-color: #e8e8e8;
+}
+.key:nth-child(8).playing,
+.key:nth-child(8):active {
+	background-color: #3FBF8F;
+}
+.key:nth-child(10).playing,
+.key:nth-child(10):active {
+	background-color: #f05454;
+}
+.key:nth-child(11).playing,
+.key:nth-child(11):active {
+	background-color: #3FBF8F;
+}
+.key:nth-child(12).playing,
+.key:nth-child(12):active {
+	background-color: #fcf876;
+}
